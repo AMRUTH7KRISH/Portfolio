@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Futuristic Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
-
-  <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-
-  <!-- Vanta & Three.js for 3D background -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Background -->
-  <div id="background"></div>
+  <header>
+    <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img">
+    <h1>Your Name</h1>
+    <p>Web Developer | Python Enthusiast | ML Learner</p>
+  </header>
 
-  <!-- Main Container -->
-  <div class="container">
-    <h1>Hello, I'm <span class="glow">Appu</span></h1>
-    <h2>MCA Student | Web Developer | Tech Enthusiast</h2>
-    
-    <p class="about">
-      I'm an MCA student with a strong computer science background, passionate about creating immersive and efficient digital solutions. 
-      I enjoy building sleek user interfaces and experimenting with modern web technologies.
-    </p>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a developer who enjoys building web apps, solving problems, and learning new tech. I work with Python, JavaScript, Flask, and ML tools.</p>
+  </section>
 
-    <div class="links">
-      <a href="#projects" class="btn">My Projects</a>
-      <a href="#contact" class="btn secondary">Contact Me</a>
-    </div>
-  </div>
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Smart Waste Classifier</strong> – Flask + ML + YOLOv8<br>
+        <a href="https://github.com/yourusername/smart-waste-classifier" target="_blank">View on GitHub</a>
+      </li>
+      <li>
+        <strong>Pneumonia Detection</strong> – Deep Learning using CNN<br>
+        <a href="https://github.com/yourusername/pneumonia-detector" target="_blank">View on GitHub</a>
+      </li>
+    </ul>
+  </section>
 
-  <!-- Script -->
-  <script src="script.js"></script>
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
 </body>
 </html>
